@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 60px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url(/imgs/2eb05e31-adc4-470c-a742-b088c5779322_removalai_preview.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -8px;
+}
+
+.border {
+    border: 0.1px solid transparent;
+}
+
+.border:hover {
+    border: 0.1px solid white;
+}
+
+/* BOX 2    */
+.add-1st{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 26px;
+}
+.add-2nd{
+font-size: 1rem;
+margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 70px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+     border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-2nd{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* PANEL */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.panel-deals{
+    font: size 0.9rem;
+    font-weight: 700;
+}
