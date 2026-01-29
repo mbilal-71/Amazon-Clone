@@ -25,7 +25,7 @@
 }
 
 .logo {
-    background-image: url(/imgs/logo.img.png);
+    background-image: url('imgs/logo.img.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,10 @@
     margin: 0 20px;
     max-width: 800px;
 }
+.navsearch:hover{
+    border: 2px solid orange;
 
+}
 .search-select {
     background-color: #f3f3f3;
     width: 50px;
@@ -193,7 +196,7 @@
 
 /* HERO SECTION */
 .hero-sec {
-    background-image: url('/imgs/hero.img.jpg'); /* Updated High Quality Hero */
+    background-image: url('imgs/hero.img.jpg'); /* Updated High Quality Hero */
     height: 400px;
     background-size: cover;
     background-position: center top;
