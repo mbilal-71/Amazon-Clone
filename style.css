@@ -182,9 +182,6 @@
 .panel-ops {
     display: flex;
     gap: 15px;
-}
-
-.panel-ops p {
     cursor: pointer;
 }
 
@@ -196,14 +193,14 @@
 
 /* HERO SECTION */
 .hero-sec {
-    background-image: url('imgs/hero.img.jpg'); /* Updated High Quality Hero */
+    background-image: url('imgs/hero.img.jpg'); 
     height: 400px;
     background-size: cover;
     background-position: center top;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: relative;
+    position: relative; 
 }
 
 .hero-sec::before {
@@ -229,7 +226,9 @@
     margin-bottom: 25px;
     z-index: 1;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
 }
+
 
 .hero-msg a {
     text-decoration: none;
@@ -253,14 +252,13 @@
 }
 
 .box {
-    /* 5 items per row: (100% / 5) - gap adjustment */
-    width: calc(20% - 16px); 
+    width: calc(25% - 16px); 
     background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 420px;
+    min-height: 300px;
     transition: transform 0.2s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
