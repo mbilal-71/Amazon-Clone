@@ -320,7 +320,7 @@
 
 .nested-box {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     text-decoration: none;
     color: inherit;
     padding: 5px;
@@ -333,6 +333,9 @@
 .nested-box a{
      text-decoration: none;
      color: black;
+     padding-top: 15px;
+     margin-left: 9px;
+     font-weight: 500;
 }
 .nested-box a:hover{
     color: black;
@@ -347,8 +350,8 @@
 }
 
 .nested-img {
-    height: 50px;
-    width: 60px;
+    height: 150px;
+    width: 200px;
     background-size: cover;
     background-position: center;
     border-radius: 2px;
