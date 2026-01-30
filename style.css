@@ -262,6 +262,7 @@
     min-height: 300px;
     transition: transform 0.2s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    cursor: pointer;
 }
 
 .box:hover {
@@ -307,11 +308,14 @@
 }
 
 /* GROUPED BOX STYLES */
+.box-grouped{
+    width: 800px;
+}
 .grouped-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    justify-content: space-evenly;
+     display: grid;
+     grid-template-columns: repeat(3, 3fr);
+     gap: 15px;
+     height: 100%;
 }
 
 .nested-box {
@@ -321,15 +325,25 @@
     color: inherit;
     padding: 5px;
     border-radius: 4px;
-    transition: box-shadow 0.2s, background-color 0.2s, transform 0.1s;
-    border: 1px solid transparent; /* Prevent layout shift on hover */
+    transition: box-shadow 0.2s black, background-color 0.2s, transform 0.1s;
+    border: 1px solid transparent; 
+    margin-left: 10px;
+}
+
+.nested-box a{
+     text-decoration: none;
+     color: black;
+}
+.nested-box a:hover{
+    color: black;
+    text-decoration: underline;
 }
 
 .nested-box:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     background-color: #f7f7f7;
     border-color: #ddd;
-    transform: translateX(2px); /* Slight shift to indicate interaction */
+    transform: translateX(2px); 
 }
 
 .nested-img {
@@ -339,14 +353,10 @@
     background-position: center;
     border-radius: 2px;
     margin-right: 15px;
+    margin-left: 10px;
     flex-shrink: 0;
 }
 
-.nested-box p {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #0F1111;
-}
 
 /* Ensure See More link stays at bottom */
 .see-more-link {
@@ -363,6 +373,7 @@
     color: #c7511f;
     text-decoration: underline;
 }
+
 footer {
     margin-top: 30px;
 }
@@ -376,6 +387,11 @@ footer {
     align-items: center;
     font-size: 0.85rem;
     cursor: pointer;
+}
+#back-to-top{
+    text-decoration: none;
+    color: white;
+
 }
 
 .foot-panel1:hover {
