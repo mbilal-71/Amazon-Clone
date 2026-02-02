@@ -2,7 +2,7 @@
 
 A responsive and functional Amazon-inspired e-commerce landing page built with HTML, CSS, and Vanilla JavaScript.
 
-## 🚀 Features
+##  Features
 
 - **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
 - **Dynamic Shopping Cart**: Interactive "Add to Cart" functionality with real-time UI updates.
@@ -10,13 +10,13 @@ A responsive and functional Amazon-inspired e-commerce landing page built with H
 - **Modern UI**: Clean design with hover effects, smooth transitions, and Amazon branding.
 - **Smooth Navigation**: Custom "Back to Top" scrolling behavior.
 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5**: Semantic structure.
 - **CSS3**: Layout, styling, and responsiveness.
 - **JavaScript**: Dynamic interactivity and logic.
 
-## 📦 Getting Started
+##  Getting Started
 
 1. Clone the repository:
    ```bash
@@ -24,7 +24,7 @@ A responsive and functional Amazon-inspired e-commerce landing page built with H
    ```
 2. Open `index.html` in your browser.
 
-## 📂 Project Structure
+##  Project Structure
 
 - `index.html`: Main page structure.
 - `style.css`: Project styling and responsive media queries.
